@@ -1,0 +1,43 @@
+import{j as e}from"./index-DnbSW_dr.js";import{J as s}from"./index-B7DS8934.js";import"./iframe-CFX7S7Ts.js";import"./index-CrMj5-ZH.js";import"./QkxRNX4E_VTO1B3P-DKjXYKjB.js";import"./client-BUjZUdG5.js";import"./TextField-Cy8kN4Kh.js";import"./Tooltip-BRziopUZ.js";const p=r=>{const{workbook:o,...i}=r,l=()=>e.jsxs("div",{style:{width:"100%",height:"100%",minHeight:"400px",position:"relative",display:"flex",flexDirection:"column"},children:[e.jsx(s,{style:{flex:"1"},workbook:o,...i}),e.jsxs("div",{style:{flex:"none",width:"100%",display:"flex",alignItems:"center",padding:"6px 4px"},children:[e.jsx("div",{style:{flex:"none",paddingRight:"10px"},children:"We have two separate models:"}),e.jsx("input",{style:{flex:"1 1 100%"},name:"input-copy",defaultValue:"You can copy/paste text here but this is just for demoing..."}),e.jsx("div",{style:{flex:"1 1 50%"}})]}),e.jsx(s,{style:{flex:"1"},workbook:o})]});return e.jsx(l,{})},t=p.bind({});t.storyName="Separate Models";const y={title:"Workbook/Multiple/Separate Models",component:t};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:`props => {
+  const {
+    workbook,
+    ...rest
+  } = props as any;
+  const App = () => {
+    return <div style={{
+      // We want to take full area
+      width: "100%",
+      height: "100%",
+      minHeight: "400px",
+      position: "relative",
+      display: "flex",
+      flexDirection: 'column'
+    }}>
+        <WorkbookElement style={{
+        flex: "1"
+      }} workbook={workbook} {...rest} />
+        <div style={{
+        flex: 'none',
+        width: '100%',
+        display: 'flex',
+        alignItems: 'center',
+        padding: '6px 4px'
+      }}>
+          <div style={{
+          flex: 'none',
+          paddingRight: '10px'
+        }}>We have two separate models:</div>
+          <input style={{
+          flex: '1 1 100%'
+        }} name="input-copy" defaultValue={"You can copy/paste text here but this is just for demoing..."} />
+          <div style={{
+          flex: '1 1 50%'
+        }} />
+        </div>
+        <WorkbookElement style={{
+        flex: "1"
+      }} workbook={workbook} />
+      </div>;
+  };
+  return <App />;
+}`,...t.parameters?.docs?.source}}};const k=["multipleWorkbooksSeparateModels"];export{k as __namedExportsOrder,y as default,t as multipleWorkbooksSeparateModels};
