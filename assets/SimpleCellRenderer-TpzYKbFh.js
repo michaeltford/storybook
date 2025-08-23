@@ -1,0 +1,1 @@
+import{j as a}from"./index-J-Hv9Xln.js";import{E as s}from"./index--CXhSu_I.js";const m=r=>{const{key:e,...t}=r;return a.jsx(s,{...t,value:`${r.range.rowStart}:${r.range.colStart}`},e)};export{m as s};
